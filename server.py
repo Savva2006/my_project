@@ -13,7 +13,7 @@ app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///C:/Users/Savva/' \
                                         'PycharmProjects/store_project/' \
-                                        'other/new2.db'
+                                        'store/other/new2.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
